@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  text-align: center;
+  position: relative;
+  background: linear-gradient(to bottom, #6ab7f5, #fff);
+  min-height: 100dvh;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%; /* necessário para centralizar horizontalmente */
+  transform: translate(-50%, -50%); 
+  
+;
+  
+}
+
+#figPK img{
+  width: 400px;
+}
+
+#fotoPK {
+  width: 235px;
+  height: 155px;
+  border-radius: 10px;
+  position: absolute;
+  top: 34.7%;
+  left: 45.5%; /* necessário para centralizar horizontalmente */
+  transform: translate(-50%, -50%); /* corrija com % em ambos os valores */
+}
+
+
+#informacoes-recuperadas {
+    position: absolute;
+    top: 69%;
+    left: 45.5%; /* necessário para centralizar horizontalmente */
+    transform: translate(-50%, -50%); /* corrija com % em ambos os valores */
+    font-size: 12px;
+    width: 80%;
+    text-align: center;
+    color: #202020;
+    font-weight: 400;
+
+}
+
+#botoes{
+  margin-top: 30px;
+}
+
+#btnVoltar, #btnProximo, #btnAdicionar, #btnInicio {
+  min-width: 20%;
+  padding: 2%;
+  border: 2px solid #000;
+  border-radius: 5px;
+  font-size: clamp(8px, 5vw, 1rem);
+  font-weight: 600;
+  color: white;
+  background-color: #444;
+  box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+  bottom: 100%;
+  text-decoration: none;
+}
+
